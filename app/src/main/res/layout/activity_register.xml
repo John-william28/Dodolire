@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="color/creme">
+
+    <EditText
+        android:id="@+id/editNomCreche"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom de la crèche" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mot de passe"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnInscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inscription"
+        android:backgroundTint="@color/brown"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
